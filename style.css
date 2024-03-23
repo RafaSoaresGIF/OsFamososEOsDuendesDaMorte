@@ -1,0 +1,45 @@
+@font-face {
+    font-family: BrianJames;
+    src: url(Fonts/BrianJames.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+.banner{
+    position:relative;
+}
+.banner img{
+    max-width: 100%;
+    height: 200%;
+    box-shadow: 0px 0px 20px 5px;
+}
+.banner-text{
+    margin: 1;
+    padding: 1;
+    color:red;
+    font-family: BrianJames;
+    position:absolute;
+    font-size:2vw;
+    line-height: 1;
+    left:2vw;
+    top:2vw
+}
+.banner-text h1{
+font-size: 4vw;
+}
+.text{
+    color:red;
+    position: static;
+    white-space: pre-line;
+    text-align: center;
+    padding-top: 2vw;
+    font-size: larger;
+}
+@media screen and (min-width:1440px) {
+    .text>img{
+      border-radius: 50%;
+    }
+    
+}
